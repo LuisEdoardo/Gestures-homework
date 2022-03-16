@@ -19,5 +19,10 @@ namespace Gestures_homework
             var imagen = (Image)sender;
            await this.Navigation.PushModalAsync(new ModalPage(imagen));
         }
+        async void OnTapGestureRecognizerTapped2(object sender, EventArgs args)
+        {
+            var imagen = (Image)sender;
+            await this.Navigation.PushModalAsync(new ModalPage2(imagen));
+        }
     }
 }

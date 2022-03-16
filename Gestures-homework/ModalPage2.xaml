@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Gestures_homework.ModalPage2">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center">
+            <Image x:Name="img" HeightRequest="400" WidthRequest="400">
+                <Image.GestureRecognizers>
+                    <SwipeGestureRecognizer
+                        Swiped="OnSwipeGesture" Direction="Left"/>
+                </Image.GestureRecognizers>
+            </Image>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

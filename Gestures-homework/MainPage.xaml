@@ -38,19 +38,19 @@
             <Image Source="https://lh3.googleusercontent.com/mH1qxFeKvkrv2KI04h4uOBtWYVjTgIgOdFzQibfD3oYuP8Fym7PRqrElYdDIbAZcIwKTStxB119boRcrmVpUlnrcAIk_m7rNTrEA=w600" Grid.Column="0" Grid.Row="1">
                 <Image.GestureRecognizers>
                     <TapGestureRecognizer
-                Tapped="OnTapGestureRecognizerTapped"/>
+                Tapped="OnTapGestureRecognizerTapped2"/>
                 </Image.GestureRecognizers>
             </Image>
             <Image Source="https://lh3.googleusercontent.com/-wnl9Cpf2HP6K4A6IKKUfaN5HcSjNLNQr2ybSN6oG-ZXfzbWf9ym86UYKzrtUtrQJoCUF7LGlQyeBX4bZG0V-mEEsxVPqajJImpMYg=w600" Grid.Column="1" Grid.Row="1">
                 <Image.GestureRecognizers>
                     <TapGestureRecognizer
-                Tapped="OnTapGestureRecognizerTapped"/>
+                Tapped="OnTapGestureRecognizerTapped2"/>
                 </Image.GestureRecognizers>
             </Image>
             <Image Source="https://lh3.googleusercontent.com/UylPeF7NZTGwEO3g6G9GXgEdryfRehtxkrnmD_crXs7_ILTLevsrJ-FUB4APUxwaKlxnXgWnz6eRCsu5vSEi0fDKxVPb7U4JCCWCYQ=w600" Grid.Column="2" Grid.Row="1">
                 <Image.GestureRecognizers>
                     <TapGestureRecognizer
-                Tapped="OnTapGestureRecognizerTapped"/>
+                Tapped="OnTapGestureRecognizerTapped2"/>
                 </Image.GestureRecognizers>
             </Image>
         </Grid>
