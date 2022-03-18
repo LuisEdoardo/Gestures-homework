@@ -6,7 +6,8 @@
         <StackLayout VerticalOptions="Center">
             <Image x:Name="img" HeightRequest="400" WidthRequest="400">
                 <Image.GestureRecognizers>
-                    <PinchGestureRecognizer PinchUpdated="OnPinched" />
+                    <SwipeGestureRecognizer Swiped="OnSwipe" Direction="Left"/>
+                    <PinchGestureRecognizer PinchUpdated="OnZoom" />
                 </Image.GestureRecognizers>
             </Image>
         </StackLayout>
